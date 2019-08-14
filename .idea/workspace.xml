@@ -2,39 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c71204-5e09-480b-b7ad-c7e0cefb4849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FlappyBird-mini.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/bgm.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Director.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/DataStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/Resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/ResourceLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/base/Sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/Birds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/Score.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/player/StartButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/BackGround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/DownPencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/Land.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/Pencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/runtime/UpPencil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/begin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/birds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/land.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/pie_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/pie_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/start_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Director.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Director.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/player/Birds.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/player/Birds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/player/Score.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/player/Score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/player/StartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/player/StartButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/runtime/BackGround.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/runtime/BackGround.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/runtime/DownPencil.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/runtime/DownPencil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/runtime/Land.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/runtime/Land.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/runtime/Pencil.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/runtime/Pencil.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,63 +24,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Director.js">
+        <entry file="file://$PROJECT_DIR$/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="90" column="56" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+            <state relative-caret-position="84">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
-                <element signature="e#7#53#0" expanded="true" />
+                <element signature="e#0#59#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/player/Birds.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/runtime/DownPencil.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/player/Score.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/player/StartButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main.js">
+        <entry file="file://$PROJECT_DIR$/js/Director.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-1494">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#7#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,9 +60,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>res`</find>
+      <find>window.innerHeight</find>
+      <find>window.innerWidth</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>DataStore.getInstance().canvas.height</replace>
+      <replace>DataStore.getInstance().canvas.width</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,20 +79,21 @@
         <option value="$PROJECT_DIR$/js/base/Resource.js" />
         <option value="$PROJECT_DIR$/js/base/ResourceLoader.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/runtime/BackGround.js" />
         <option value="$PROJECT_DIR$/js/base/Sprite.js" />
         <option value="$PROJECT_DIR$/js/base/DataStore.js" />
         <option value="$PROJECT_DIR$/test/es5.js" />
         <option value="$PROJECT_DIR$/test/es6.js" />
-        <option value="$PROJECT_DIR$/js/runtime/Land.js" />
         <option value="$PROJECT_DIR$/js/runtime/UpPencil.js" />
-        <option value="$PROJECT_DIR$/js/runtime/Pencil.js" />
+        <option value="$PROJECT_DIR$/js/player/Score.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/runtime/BackGround.js" />
         <option value="$PROJECT_DIR$/js/player/Birds.js" />
         <option value="$PROJECT_DIR$/js/player/StartButton.js" />
-        <option value="$PROJECT_DIR$/js/player/Score.js" />
         <option value="$PROJECT_DIR$/js/runtime/DownPencil.js" />
-        <option value="$PROJECT_DIR$/js/Director.js" />
+        <option value="$PROJECT_DIR$/js/runtime/Land.js" />
+        <option value="$PROJECT_DIR$/js/runtime/Pencil.js" />
         <option value="$PROJECT_DIR$/Main.js" />
+        <option value="$PROJECT_DIR$/js/Director.js" />
       </list>
     </option>
   </component>
@@ -245,23 +187,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565676320852</updated>
-      <workItem from="1565676323831" duration="28152000" />
+      <workItem from="1565676323831" duration="32098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28152000" />
+    <option name="totallyTimeSpent" value="32098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-219" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Readhub" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -303,13 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/ResourceLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/base/DataStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -331,10 +267,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base/Sprite.js">
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="588">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -345,27 +284,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/runtime/Land.js">
+    <entry file="file://$PROJECT_DIR$/js/base/ResourceLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="700">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base/Sprite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/player/Score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/player/StartButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/runtime/BackGround.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="224">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/runtime/DownPencil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/runtime/Land.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/runtime/Pencil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="e#8#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="28">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -379,53 +353,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/player/StartButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/player/Score.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/runtime/DownPencil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/player/Birds.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Director.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="90" column="56" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="28">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="84">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Director.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1494">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#7#53#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,8 +10,8 @@ export class Director {
 		}
 
 		createPencil() {
-				const minTop = window.innerHeight / 8
-				const maxTop = window.innerHeight / 2
+				const minTop = DataStore.getInstance().canvas.height / 8
+				const maxTop = DataStore.getInstance().canvas.height / 2
 				const top = minTop + Math.random() * (maxTop - minTop)
 				this.dataStore.get('pencils').push(new UpPencil(top))
 				this.dataStore.get('pencils').push(new DownPencil(top))
@@ -50,7 +50,7 @@ export class Director {
 				const score = this.dataStore.get('score')
 				// 地板撞击
 				if (birds.birdsY[0] + birds.birdsHeight[0] >= land.y) {
-						this.dataStore.isGameOver = true
+						this.isGameOver = true
 						return
 				}
 				//小鸟边框模型
@@ -70,7 +70,7 @@ export class Director {
 								right: pencil.x + pencil.width
 						}
 						if (Director.isStrike(birdsBorder, pencilBorder)){
-								this.dataStore.isGameOver = true
+								this.isGameOver = true
 								return
 						}
 				}
@@ -82,7 +82,7 @@ export class Director {
 		}
 		run() {
 				this.check()
-			if (!this.dataStore.isGameOver) {
+			if (!this.isGameOver) {
 					this.dataStore.get('background').draw()
 					const pencils = this.dataStore.get('pencils')
 					if (pencils[0].x + pencils[0].width <= 0 && pencils.length === 4) {
@@ -90,7 +90,7 @@ export class Director {
 							pencils.shift()
 							this.dataStore.get('score').isScore = true
 					}
-					if (pencils[0].x <= (window.innerWidth - pencils[0].width) /2 && pencils.length === 2){
+					if (pencils[0].x <= (DataStore.getInstance().canvas.width - pencils[0].width) /2 && pencils.length === 2){
 							this.createPencil()
 					}
 					this.dataStore.get('pencils').forEach((val, index, array) => {
@@ -102,6 +102,14 @@ export class Director {
 					let timer = requestAnimationFrame(() => this.run())
 					this.dataStore.put('timer', timer)
 			}else {
+					this.dataStore.get('background').draw()
+					this.dataStore.get('pencils').forEach((val, index, array) => {
+							val.draw()
+					})
+					this.dataStore.get('score').draw()
+
+					this.dataStore.get('land').draw()
+					this.dataStore.get('birds').draw()
 					this.dataStore.get('startButton').draw()
 					cancelAnimationFrame(this.dataStore.get('timer'))
 					this.dataStore.destroy()

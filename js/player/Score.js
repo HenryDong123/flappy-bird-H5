@@ -13,8 +13,8 @@ export class Score {
 			this.ctx.fillStyle = '#fff'
 			this.ctx.fillText(
 					this.scoreNumber,
-					window.innerWidth /20,
-					window.innerHeight /18,
+					DataStore.getInstance().canvas.width /20,
+					DataStore.getInstance().canvas.height /18,
 					1000
 			)
 	}
