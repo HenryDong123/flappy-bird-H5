@@ -45,6 +45,6 @@ export class Main {
 								this.director.birdsEvent()
 						}
 				})
-				this.dataStore.get('scoreButton')
+
 		}
 }
